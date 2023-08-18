@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    flex: 1 1 auto;
+    background-color: lightgray;
+} 
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+input#main-display {
+    width: 400px;
+}
+
+.btn-calc {
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-sections {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+.button-rows {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 5px;
+}
+
+#button-row-2 {
+    display: grid;
+    grid-template-columns: 23px 23px 23px;
+    grid-template-rows: 23px 23px 23px 23px;
+
+}
+
+
+#light-dark {
+    justify-content: center;
+    align-items: center;
+}
+
+#light-mode {
+width: 20px;
+height: auto;
+justify-content: center;
+align-items: center;
+}
